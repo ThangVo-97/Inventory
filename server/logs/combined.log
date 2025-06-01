@@ -206,3 +206,442 @@
 2025-06-01 16:21:03 [[32minfo[39m]: ===============Get Items ================
 2025-06-01 16:21:03 [[32minfo[39m]: Get Items Successfully.
 2025-06-01 16:21:03 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:21:03 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:01:11 [[32minfo[39m]: my req: undefined
+2025-06-01 19:01:11 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:01:11 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:01:27 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc2OTY2MywiZXhwIjoxNzUxMzYxNjYzfQ.pCTSL6y53Dfd8KK9m-9EBaQNCXarOOshg8fLXMG1Rr0
+2025-06-01 19:01:27 [[32minfo[39m]: my req: 683c1b7ade2e3383418bc328
+2025-06-01 19:01:27 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:01:27 +0000] "GET /api/auth/me HTTP/1.1" 200 187 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:01:47 [[32minfo[39m]: ===============login ================
+2025-06-01 19:01:47 [[32minfo[39m]: Login Successfully.
+2025-06-01 19:01:47 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:01:47 +0000] "POST /api/auth/login HTTP/1.1" 200 277 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:01:47 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTMwNywiZXhwIjoxNzUxMzcxMzA3fQ.GLDzuk_CTs9GBaMDf1P8LjYlxdaT78uDX7BwTbRimRA
+2025-06-01 19:01:47 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:01:47 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:01:47 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:01:47 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:04:21 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTMwNywiZXhwIjoxNzUxMzcxMzA3fQ.GLDzuk_CTs9GBaMDf1P8LjYlxdaT78uDX7BwTbRimRA
+2025-06-01 19:04:21 [[32minfo[39m]: my req: 683c1b7ade2e3383418bc328
+2025-06-01 19:04:21 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:04:21 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:04:41 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTMwNywiZXhwIjoxNzUxMzcxMzA3fQ.GLDzuk_CTs9GBaMDf1P8LjYlxdaT78uDX7BwTbRimRA
+2025-06-01 19:04:41 [[32minfo[39m]: my req: 683c1b7ade2e3383418bc328
+2025-06-01 19:04:41 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:04:41 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:04:43 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTMwNywiZXhwIjoxNzUxMzcxMzA3fQ.GLDzuk_CTs9GBaMDf1P8LjYlxdaT78uDX7BwTbRimRA
+2025-06-01 19:04:43 [[32minfo[39m]: my req: 683c1b7ade2e3383418bc328
+2025-06-01 19:04:43 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:04:43 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:04:44 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTMwNywiZXhwIjoxNzUxMzcxMzA3fQ.GLDzuk_CTs9GBaMDf1P8LjYlxdaT78uDX7BwTbRimRA
+2025-06-01 19:04:44 [[32minfo[39m]: my req: 683c1b7ade2e3383418bc328
+2025-06-01 19:04:44 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:04:44 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:04:45 [[32minfo[39m]: ===============login ================
+2025-06-01 19:04:45 [[32minfo[39m]: Login Successfully.
+2025-06-01 19:04:45 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:04:45 +0000] "POST /api/auth/login HTTP/1.1" 200 277 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:04:45 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTQ4NSwiZXhwIjoxNzUxMzcxNDg1fQ.a3E07zi0o1XrJVWbsBItVP77zA2cPbswbZTyJMkVOS4
+2025-06-01 19:04:45 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:04:45 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:04:45 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:04:45 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:07:26 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTQ4NSwiZXhwIjoxNzUxMzcxNDg1fQ.a3E07zi0o1XrJVWbsBItVP77zA2cPbswbZTyJMkVOS4
+2025-06-01 19:07:26 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:07:26 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:07:26 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:07:26 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:07:43 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTQ4NSwiZXhwIjoxNzUxMzcxNDg1fQ.a3E07zi0o1XrJVWbsBItVP77zA2cPbswbZTyJMkVOS4
+2025-06-01 19:07:43 [[32minfo[39m]: my req: 683c1b7ade2e3383418bc328
+2025-06-01 19:07:43 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:07:43 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:07:44 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTQ4NSwiZXhwIjoxNzUxMzcxNDg1fQ.a3E07zi0o1XrJVWbsBItVP77zA2cPbswbZTyJMkVOS4
+2025-06-01 19:07:44 [[32minfo[39m]: my req: 683c1b7ade2e3383418bc328
+2025-06-01 19:07:44 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:07:44 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:07:45 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTQ4NSwiZXhwIjoxNzUxMzcxNDg1fQ.a3E07zi0o1XrJVWbsBItVP77zA2cPbswbZTyJMkVOS4
+2025-06-01 19:07:45 [[32minfo[39m]: my req: 683c1b7ade2e3383418bc328
+2025-06-01 19:07:45 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:07:45 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:09:23 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTQ4NSwiZXhwIjoxNzUxMzcxNDg1fQ.a3E07zi0o1XrJVWbsBItVP77zA2cPbswbZTyJMkVOS4
+2025-06-01 19:09:23 [[32minfo[39m]: my req: 683c1b7ade2e3383418bc328
+2025-06-01 19:09:23 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:09:23 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:09:24 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTQ4NSwiZXhwIjoxNzUxMzcxNDg1fQ.a3E07zi0o1XrJVWbsBItVP77zA2cPbswbZTyJMkVOS4
+2025-06-01 19:09:24 [[32minfo[39m]: my req: 683c1b7ade2e3383418bc328
+2025-06-01 19:09:24 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:09:24 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:09:32 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTQ4NSwiZXhwIjoxNzUxMzcxNDg1fQ.a3E07zi0o1XrJVWbsBItVP77zA2cPbswbZTyJMkVOS4
+2025-06-01 19:09:32 [[32minfo[39m]: my req: 683c1b7ade2e3383418bc328
+2025-06-01 19:09:32 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:09:32 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:09:44 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTQ4NSwiZXhwIjoxNzUxMzcxNDg1fQ.a3E07zi0o1XrJVWbsBItVP77zA2cPbswbZTyJMkVOS4
+2025-06-01 19:09:44 [[32minfo[39m]: my req: 683c1b7ade2e3383418bc328
+2025-06-01 19:09:44 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:09:44 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:09:57 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTQ4NSwiZXhwIjoxNzUxMzcxNDg1fQ.a3E07zi0o1XrJVWbsBItVP77zA2cPbswbZTyJMkVOS4
+2025-06-01 19:09:57 [[32minfo[39m]: my req: 683c1b7ade2e3383418bc328
+2025-06-01 19:09:57 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:09:57 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:09:58 [[32minfo[39m]: ===============login ================
+2025-06-01 19:09:58 [[32minfo[39m]: Login Successfully.
+2025-06-01 19:09:58 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:09:58 +0000] "POST /api/auth/login HTTP/1.1" 200 277 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:09:59 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTc5OCwiZXhwIjoxNzUxMzcxNzk4fQ.4eMf6fuTYQto35j_UfEY-41n0Ma0H8-inYCARIzgMMg
+2025-06-01 19:09:59 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:09:59 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:09:59 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:09:59 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:12:36 [[32minfo[39m]: ===============login ================
+2025-06-01 19:12:36 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:12:36 +0000] "POST /api/auth/login HTTP/1.1" 401 37 "-" "PostmanRuntime/7.44.0"
+2025-06-01 19:12:43 [[32minfo[39m]: ===============login ================
+2025-06-01 19:12:43 [[32minfo[39m]: Login Successfully.
+2025-06-01 19:12:43 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:12:43 +0000] "POST /api/auth/login HTTP/1.1" 200 277 "-" "PostmanRuntime/7.44.0"
+2025-06-01 19:13:12 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 19:13:12 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 19:13:12 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 19:13:12 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:13:12 +0000] "POST /api/items HTTP/1.1" 201 296 "-" "PostmanRuntime/7.44.0"
+2025-06-01 19:13:38 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 19:13:38 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 19:13:38 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 19:13:38 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:13:38 +0000] "POST /api/items HTTP/1.1" 201 317 "-" "PostmanRuntime/7.44.0"
+2025-06-01 19:13:47 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 19:13:47 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 19:13:47 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 19:13:47 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:13:47 +0000] "POST /api/items HTTP/1.1" 201 313 "-" "PostmanRuntime/7.44.0"
+2025-06-01 19:13:57 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 19:13:57 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 19:13:58 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 19:13:58 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:13:58 +0000] "POST /api/items HTTP/1.1" 201 317 "-" "PostmanRuntime/7.44.0"
+2025-06-01 19:14:02 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTc5OCwiZXhwIjoxNzUxMzcxNzk4fQ.4eMf6fuTYQto35j_UfEY-41n0Ma0H8-inYCARIzgMMg
+2025-06-01 19:14:02 [[32minfo[39m]: my req: 683c1b7ade2e3383418bc328
+2025-06-01 19:14:02 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:14:02 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:14:03 [[32minfo[39m]: ===============login ================
+2025-06-01 19:14:04 [[32minfo[39m]: Login Successfully.
+2025-06-01 19:14:04 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:14:04 +0000] "POST /api/auth/login HTTP/1.1" 200 277 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:14:04 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc4MDA0NCwiZXhwIjoxNzUxMzcyMDQ0fQ.i2Qmljq_Lto6sIitR4np9mZ4N_o5lPpCUZOii-Z5zD4
+2025-06-01 19:14:04 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:14:04 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:14:04 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:14:04 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:14:43 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 19:14:43 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:14:43 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:14:43 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:14:43 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 200 1192 "-" "PostmanRuntime/7.44.0"
+2025-06-01 19:16:00 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 19:16:00 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 19:16:00 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 19:16:00 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:16:00 +0000] "POST /api/items HTTP/1.1" 201 317 "-" "PostmanRuntime/7.44.0"
+2025-06-01 19:16:14 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 19:16:14 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:16:14 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:16:14 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:16:14 +0000] "GET /api/items?userId=683c1b7ade2e3383418bc328&role=admin HTTP/1.1" 200 1269 "-" "PostmanRuntime/7.44.0"
+2025-06-01 19:16:18 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc4MDA0NCwiZXhwIjoxNzUxMzcyMDQ0fQ.i2Qmljq_Lto6sIitR4np9mZ4N_o5lPpCUZOii-Z5zD4
+2025-06-01 19:16:18 [[32minfo[39m]: my req: 683c1b7ade2e3383418bc328
+2025-06-01 19:16:18 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:16:18 +0000] "GET /api/auth/me HTTP/1.1" 200 188 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:16:20 [[32minfo[39m]: ===============login ================
+2025-06-01 19:16:20 [[32minfo[39m]: Login Successfully.
+2025-06-01 19:16:20 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:16:20 +0000] "POST /api/auth/login HTTP/1.1" 200 277 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:16:20 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc4MDE4MCwiZXhwIjoxNzUxMzcyMTgwfQ.sz5tvruY4ftq8kZBgzas_nPjZ2po66AlumZgMbx3-FU
+2025-06-01 19:16:20 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:16:20 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:16:20 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:16:20 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:17:06 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc4MDE4MCwiZXhwIjoxNzUxMzcyMTgwfQ.sz5tvruY4ftq8kZBgzas_nPjZ2po66AlumZgMbx3-FU
+2025-06-01 19:17:06 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:17:06 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:17:06 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:17:06 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:17:10 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc4MDE4MCwiZXhwIjoxNzUxMzcyMTgwfQ.sz5tvruY4ftq8kZBgzas_nPjZ2po66AlumZgMbx3-FU
+2025-06-01 19:17:10 [[32minfo[39m]: my req: 683c1b7ade2e3383418bc328
+2025-06-01 19:17:10 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:17:10 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:17:12 [[32minfo[39m]: ===============login ================
+2025-06-01 19:17:12 [[32minfo[39m]: Login Successfully.
+2025-06-01 19:17:12 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:17:12 +0000] "POST /api/auth/login HTTP/1.1" 200 277 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:17:12 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc4MDIzMiwiZXhwIjoxNzUxMzcyMjMyfQ.fiaX63592jpuZWmeMJXtX5IaAsjPZKIZu8pEx47uUY0
+2025-06-01 19:17:12 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:17:12 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:17:12 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:17:12 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:18:01 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc4MDIzMiwiZXhwIjoxNzUxMzcyMjMyfQ.fiaX63592jpuZWmeMJXtX5IaAsjPZKIZu8pEx47uUY0
+2025-06-01 19:18:01 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:18:01 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:18:01 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:18:01 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:27:02 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc4MDIzMiwiZXhwIjoxNzUxMzcyMjMyfQ.fiaX63592jpuZWmeMJXtX5IaAsjPZKIZu8pEx47uUY0
+2025-06-01 19:27:02 [[32minfo[39m]: my req: 683c1b7ade2e3383418bc328
+2025-06-01 19:27:02 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:27:02 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:27:03 [[32minfo[39m]: ===============Register User ================
+2025-06-01 19:27:03 [[31merror[39m]: Register error: MongoServerError: E11000 duplicate key error collection: inventory.users index: email_1 dup key: { email: "thang1@gmail.com" }
+2025-06-01 19:27:03 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:27:03 +0000] "POST /api/auth/register HTTP/1.1" 400 32 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:27:11 [[32minfo[39m]: ===============Register User ================
+2025-06-01 19:27:11 [[32minfo[39m]: Register Successfully.
+2025-06-01 19:27:11 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:27:11 +0000] "POST /api/auth/register HTTP/1.1" 201 277 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:27:17 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzFmZjM5YjY2OTZmOWI4ZmY3NiIsImlhdCI6MTc0ODc4MDgzMSwiZXhwIjoxNzUxMzcyODMxfQ.dR93P-ujtx-dPC00NMTBJeSgqF1gZ-SM4DoK_GleuUc
+2025-06-01 19:27:17 [[32minfo[39m]: my req: 683c471ff39b6696f9b8ff76
+2025-06-01 19:27:17 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:27:17 +0000] "GET /api/auth/me HTTP/1.1" 200 187 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:27:18 [[32minfo[39m]: ===============login ================
+2025-06-01 19:27:18 [[32minfo[39m]: Login Successfully.
+2025-06-01 19:27:18 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:27:18 +0000] "POST /api/auth/login HTTP/1.1" 200 277 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:27:18 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzFmZjM5YjY2OTZmOWI4ZmY3NiIsImlhdCI6MTc0ODc4MDgzOCwiZXhwIjoxNzUxMzcyODM4fQ.NrSk8adwcR40qGFoXqBW3pBOE5UOCKtaB0FU0eSlOv8
+2025-06-01 19:27:18 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:27:18 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:27:18 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:27:18 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:27:35 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzFmZjM5YjY2OTZmOWI4ZmY3NiIsImlhdCI6MTc0ODc4MDgzOCwiZXhwIjoxNzUxMzcyODM4fQ.NrSk8adwcR40qGFoXqBW3pBOE5UOCKtaB0FU0eSlOv8
+2025-06-01 19:27:35 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:27:35 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:27:40 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzFmZjM5YjY2OTZmOWI4ZmY3NiIsImlhdCI6MTc0ODc4MDgzOCwiZXhwIjoxNzUxMzcyODM4fQ.NrSk8adwcR40qGFoXqBW3pBOE5UOCKtaB0FU0eSlOv8
+2025-06-01 19:27:40 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:27:40 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:27:44 [[32minfo[39m]: ===============Register User ================
+2025-06-01 19:27:44 [[32minfo[39m]: Register Successfully.
+2025-06-01 19:27:44 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:27:44 +0000] "POST /api/auth/register HTTP/1.1" 201 277 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:27:49 [[32minfo[39m]: ===============login ================
+2025-06-01 19:27:49 [[32minfo[39m]: Login Successfully.
+2025-06-01 19:27:49 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:27:49 +0000] "POST /api/auth/login HTTP/1.1" 200 277 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:27:49 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MDg2OSwiZXhwIjoxNzUxMzcyODY5fQ.FAaDCSF9g6-V_4TcKggKDO7MTuDm-cOsCjqJOuPh4o0
+2025-06-01 19:27:49 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:27:49 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:27:49 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:27:49 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:28:44 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MDg2OSwiZXhwIjoxNzUxMzcyODY5fQ.FAaDCSF9g6-V_4TcKggKDO7MTuDm-cOsCjqJOuPh4o0
+2025-06-01 19:28:44 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:28:44 +0000] "GET /api/auth/me HTTP/1.1" 200 188 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:28:45 [[32minfo[39m]: ===============login ================
+2025-06-01 19:28:45 [[32minfo[39m]: Login Successfully.
+2025-06-01 19:28:45 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:28:45 +0000] "POST /api/auth/login HTTP/1.1" 200 292 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:28:45 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MDkyNSwiZXhwIjoxNzUxMzcyOTI1fQ.jl7DA-VLbmqZ4kyQzrU0axmj1nqOhaFFNKdk8yjOT00
+2025-06-01 19:28:45 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:28:45 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:28:45 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:28:45 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:29:08 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 19:29:08 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 19:29:08 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 19:29:08 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:29:08 +0000] "POST /api/items HTTP/1.1" 201 317 "-" "PostmanRuntime/7.44.0"
+2025-06-01 19:29:17 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 19:29:17 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 19:29:17 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 19:29:17 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:29:17 +0000] "POST /api/items HTTP/1.1" 201 316 "-" "PostmanRuntime/7.44.0"
+2025-06-01 19:29:22 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 19:29:22 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 19:29:22 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 19:29:22 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:29:22 +0000] "POST /api/items HTTP/1.1" 201 317 "-" "PostmanRuntime/7.44.0"
+2025-06-01 19:29:30 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 19:29:30 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:29:30 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:29:30 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:29:30 +0000] "GET /api/items?userId=683c1b7ade2e3383418bc328&role=admin HTTP/1.1" 200 1269 "-" "PostmanRuntime/7.44.0"
+2025-06-01 19:29:40 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 19:29:40 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:29:40 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:29:40 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:29:40 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&role=admin HTTP/1.1" 200 954 "-" "PostmanRuntime/7.44.0"
+2025-06-01 19:29:49 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 19:29:49 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 19:29:49 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 19:29:49 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:29:49 +0000] "POST /api/items HTTP/1.1" 201 318 "-" "PostmanRuntime/7.44.0"
+2025-06-01 19:29:52 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MDkyNSwiZXhwIjoxNzUxMzcyOTI1fQ.jl7DA-VLbmqZ4kyQzrU0axmj1nqOhaFFNKdk8yjOT00
+2025-06-01 19:29:52 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:29:52 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:29:54 [[32minfo[39m]: ===============login ================
+2025-06-01 19:29:54 [[32minfo[39m]: Login Successfully.
+2025-06-01 19:29:54 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:29:54 +0000] "POST /api/auth/login HTTP/1.1" 200 292 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:29:54 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MDk5NCwiZXhwIjoxNzUxMzcyOTk0fQ.KRawgQCsKHQ48ZGdyl29IO8hpI4D8_fc6CbtTc_UqBw
+2025-06-01 19:29:54 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:29:54 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:29:54 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:29:54 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:30:40 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MDk5NCwiZXhwIjoxNzUxMzcyOTk0fQ.KRawgQCsKHQ48ZGdyl29IO8hpI4D8_fc6CbtTc_UqBw
+2025-06-01 19:30:40 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:30:40 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:30:40 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:30:40 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:31:02 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MDk5NCwiZXhwIjoxNzUxMzcyOTk0fQ.KRawgQCsKHQ48ZGdyl29IO8hpI4D8_fc6CbtTc_UqBw
+2025-06-01 19:31:02 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:31:02 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:31:02 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:31:02 +0000] "GET /api/items?[object%20Object] HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:32:19 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MDk5NCwiZXhwIjoxNzUxMzcyOTk0fQ.KRawgQCsKHQ48ZGdyl29IO8hpI4D8_fc6CbtTc_UqBw
+2025-06-01 19:32:19 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:32:19 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:32:19 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:32:19 +0000] "GET /api/items?683c4740a4deaf7138bea81e&&admin HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:32:23 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MDk5NCwiZXhwIjoxNzUxMzcyOTk0fQ.KRawgQCsKHQ48ZGdyl29IO8hpI4D8_fc6CbtTc_UqBw
+2025-06-01 19:32:23 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:32:23 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:32:23 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:32:23 +0000] "GET /api/items?683c4740a4deaf7138bea81e&&admin HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:32:25 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MDk5NCwiZXhwIjoxNzUxMzcyOTk0fQ.KRawgQCsKHQ48ZGdyl29IO8hpI4D8_fc6CbtTc_UqBw
+2025-06-01 19:32:25 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:32:25 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:32:28 [[32minfo[39m]: ===============login ================
+2025-06-01 19:32:28 [[32minfo[39m]: Login Successfully.
+2025-06-01 19:32:28 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:32:28 +0000] "POST /api/auth/login HTTP/1.1" 200 292 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:32:28 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MTE0OCwiZXhwIjoxNzUxMzczMTQ4fQ.NSPXpBubLNvOq7cK1gJl_TTUJOzILPK_xBq_4-NOVXc
+2025-06-01 19:32:28 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:32:28 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:32:28 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:32:28 +0000] "GET /api/items?683c4740a4deaf7138bea81e&&admin HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 19:33:03 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MTE0OCwiZXhwIjoxNzUxMzczMTQ4fQ.NSPXpBubLNvOq7cK1gJl_TTUJOzILPK_xBq_4-NOVXc
+2025-06-01 19:33:03 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 19:33:03 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 19:33:03 [[32minfo[39m]: ::1 - - [01/Jun/2025:12:33:03 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&&role=admin HTTP/1.1" 200 1273 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:20:56 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MTE0OCwiZXhwIjoxNzUxMzczMTQ4fQ.NSPXpBubLNvOq7cK1gJl_TTUJOzILPK_xBq_4-NOVXc
+2025-06-01 22:20:56 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 22:20:56 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 22:20:56 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:20:56 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&&role=admin HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:28:13 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MTE0OCwiZXhwIjoxNzUxMzczMTQ4fQ.NSPXpBubLNvOq7cK1gJl_TTUJOzILPK_xBq_4-NOVXc
+2025-06-01 22:28:14 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:28:14 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:29:17 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MTE0OCwiZXhwIjoxNzUxMzczMTQ4fQ.NSPXpBubLNvOq7cK1gJl_TTUJOzILPK_xBq_4-NOVXc
+2025-06-01 22:29:17 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:29:17 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:33:01 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MTE0OCwiZXhwIjoxNzUxMzczMTQ4fQ.NSPXpBubLNvOq7cK1gJl_TTUJOzILPK_xBq_4-NOVXc
+2025-06-01 22:33:01 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:33:01 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:33:06 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MTE0OCwiZXhwIjoxNzUxMzczMTQ4fQ.NSPXpBubLNvOq7cK1gJl_TTUJOzILPK_xBq_4-NOVXc
+2025-06-01 22:33:06 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 22:33:06 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MTE0OCwiZXhwIjoxNzUxMzczMTQ4fQ.NSPXpBubLNvOq7cK1gJl_TTUJOzILPK_xBq_4-NOVXc
+2025-06-01 22:33:06 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 22:33:06 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 22:33:06 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:33:06 +0000] "GET /api/items?userId=undefined&&role=admin HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:33:06 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 22:33:06 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:33:06 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:33:30 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MTE0OCwiZXhwIjoxNzUxMzczMTQ4fQ.NSPXpBubLNvOq7cK1gJl_TTUJOzILPK_xBq_4-NOVXc
+2025-06-01 22:33:30 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:33:30 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:46:06 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MTE0OCwiZXhwIjoxNzUxMzczMTQ4fQ.NSPXpBubLNvOq7cK1gJl_TTUJOzILPK_xBq_4-NOVXc
+2025-06-01 22:46:06 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:46:06 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:48:57 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc4MTE0OCwiZXhwIjoxNzUxMzczMTQ4fQ.NSPXpBubLNvOq7cK1gJl_TTUJOzILPK_xBq_4-NOVXc
+2025-06-01 22:48:57 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:48:57 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:49:50 [[32minfo[39m]: ===============login ================
+2025-06-01 22:49:50 [[32minfo[39m]: Login Successfully.
+2025-06-01 22:49:50 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:49:50 +0000] "POST /api/auth/login HTTP/1.1" 200 292 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:49:50 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5Mjk5MCwiZXhwIjoxNzUxMzg0OTkwfQ.QzV-2_GxuJ1RMRwD9lsOD2essWFLG9D45xN9cgLhKEU
+2025-06-01 22:49:50 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 22:49:50 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5Mjk5MCwiZXhwIjoxNzUxMzg0OTkwfQ.QzV-2_GxuJ1RMRwD9lsOD2essWFLG9D45xN9cgLhKEU
+2025-06-01 22:49:50 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 22:49:50 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 22:49:50 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:49:50 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:49:50 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 22:49:50 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:49:50 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&&role=admin HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:49:58 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5Mjk5MCwiZXhwIjoxNzUxMzg0OTkwfQ.QzV-2_GxuJ1RMRwD9lsOD2essWFLG9D45xN9cgLhKEU
+2025-06-01 22:49:58 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:49:58 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:50:00 [[32minfo[39m]: ===============login ================
+2025-06-01 22:50:00 [[32minfo[39m]: Login Successfully.
+2025-06-01 22:50:00 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:50:00 +0000] "POST /api/auth/login HTTP/1.1" 200 292 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:50:00 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5MzAwMCwiZXhwIjoxNzUxMzg1MDAwfQ.A4FPR_7_2PfG6-GKJ9nAMZYXOdpqcqWQOTBo-WkXlSI
+2025-06-01 22:50:00 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 22:50:00 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5MzAwMCwiZXhwIjoxNzUxMzg1MDAwfQ.A4FPR_7_2PfG6-GKJ9nAMZYXOdpqcqWQOTBo-WkXlSI
+2025-06-01 22:50:00 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 22:50:00 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 22:50:00 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:50:00 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:50:00 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 22:50:00 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:50:00 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&&role=admin HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:51:02 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5MzAwMCwiZXhwIjoxNzUxMzg1MDAwfQ.A4FPR_7_2PfG6-GKJ9nAMZYXOdpqcqWQOTBo-WkXlSI
+2025-06-01 22:51:02 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 22:51:02 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 22:51:02 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:51:02 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:51:05 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5MzAwMCwiZXhwIjoxNzUxMzg1MDAwfQ.A4FPR_7_2PfG6-GKJ9nAMZYXOdpqcqWQOTBo-WkXlSI
+2025-06-01 22:51:05 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:51:05 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:51:06 [[32minfo[39m]: ===============login ================
+2025-06-01 22:51:06 [[32minfo[39m]: Login Successfully.
+2025-06-01 22:51:06 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:51:06 +0000] "POST /api/auth/login HTTP/1.1" 200 292 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:51:06 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5MzA2NiwiZXhwIjoxNzUxMzg1MDY2fQ.yzvMdbbos5E7ifnje7ck96Ogiwwty7E8QVs8UYdCeJ0
+2025-06-01 22:51:06 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 22:51:06 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5MzA2NiwiZXhwIjoxNzUxMzg1MDY2fQ.yzvMdbbos5E7ifnje7ck96Ogiwwty7E8QVs8UYdCeJ0
+2025-06-01 22:51:06 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 22:51:06 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 22:51:06 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:51:06 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:51:06 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 22:51:06 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:51:06 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&&role=admin HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:51:59 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5MzA2NiwiZXhwIjoxNzUxMzg1MDY2fQ.yzvMdbbos5E7ifnje7ck96Ogiwwty7E8QVs8UYdCeJ0
+2025-06-01 22:51:59 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 22:51:59 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 22:51:59 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:51:59 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&&role=admin HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:52:54 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5MzA2NiwiZXhwIjoxNzUxMzg1MDY2fQ.yzvMdbbos5E7ifnje7ck96Ogiwwty7E8QVs8UYdCeJ0
+2025-06-01 22:52:54 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:52:54 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:52:55 [[32minfo[39m]: ===============login ================
+2025-06-01 22:52:55 [[32minfo[39m]: Login Successfully.
+2025-06-01 22:52:55 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:52:55 +0000] "POST /api/auth/login HTTP/1.1" 200 292 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:52:56 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5MzE3NSwiZXhwIjoxNzUxMzg1MTc1fQ.UmUo4Aw7y_oJ_1CyEdRSgw7NrrQKnk5L74yYXJgS-hQ
+2025-06-01 22:52:56 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 22:52:56 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 22:52:56 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:52:56 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&&role=admin HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:53:53 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5MzE3NSwiZXhwIjoxNzUxMzg1MTc1fQ.UmUo4Aw7y_oJ_1CyEdRSgw7NrrQKnk5L74yYXJgS-hQ
+2025-06-01 22:53:53 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 22:53:53 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 22:53:53 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:53:53 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&&role=admin HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:54:03 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5MzE3NSwiZXhwIjoxNzUxMzg1MTc1fQ.UmUo4Aw7y_oJ_1CyEdRSgw7NrrQKnk5L74yYXJgS-hQ
+2025-06-01 22:54:03 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 22:54:03 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 22:54:03 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:54:03 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&&role=admin HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:54:21 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5MzE3NSwiZXhwIjoxNzUxMzg1MTc1fQ.UmUo4Aw7y_oJ_1CyEdRSgw7NrrQKnk5L74yYXJgS-hQ
+2025-06-01 22:54:21 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 22:54:21 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 22:54:21 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:54:21 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&&role=admin HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 22:57:47 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5MzE3NSwiZXhwIjoxNzUxMzg1MTc1fQ.UmUo4Aw7y_oJ_1CyEdRSgw7NrrQKnk5L74yYXJgS-hQ
+2025-06-01 22:57:47 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 22:57:47 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 22:57:47 [[32minfo[39m]: ::1 - - [01/Jun/2025:15:57:47 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&&role=admin HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:03:09 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5MzE3NSwiZXhwIjoxNzUxMzg1MTc1fQ.UmUo4Aw7y_oJ_1CyEdRSgw7NrrQKnk5L74yYXJgS-hQ
+2025-06-01 23:03:09 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:03:09 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:03:11 [[32minfo[39m]: ===============login ================
+2025-06-01 23:03:11 [[32minfo[39m]: Login Successfully.
+2025-06-01 23:03:11 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:03:11 +0000] "POST /api/auth/login HTTP/1.1" 200 292 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:03:11 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5Mzc5MSwiZXhwIjoxNzUxMzg1NzkxfQ.w6X2j8wZtjot9BfmKivJWxecmhgN1i7xWTSZWsEhKDM
+2025-06-01 23:03:11 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 23:03:11 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 23:03:11 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:03:11 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&&role=admin HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:05:21 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5Mzc5MSwiZXhwIjoxNzUxMzg1NzkxfQ.w6X2j8wZtjot9BfmKivJWxecmhgN1i7xWTSZWsEhKDM
+2025-06-01 23:05:21 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:05:21 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:05:23 [[32minfo[39m]: ===============login ================
+2025-06-01 23:05:23 [[32minfo[39m]: Login Successfully.
+2025-06-01 23:05:23 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:05:23 +0000] "POST /api/auth/login HTTP/1.1" 200 292 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:05:23 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5MzkyMywiZXhwIjoxNzUxMzg1OTIzfQ.SIGPSwMt61kbuivwLQBlxpoFeAmxYOB0VcDdC7QkEjs
+2025-06-01 23:05:23 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 23:05:23 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 23:05:23 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:05:23 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&&role=admin HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:05:47 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 23:05:47 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 23:05:47 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 23:05:47 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:05:47 +0000] "POST /api/items HTTP/1.1" 201 313 "-" "PostmanRuntime/7.44.0"
+2025-06-01 23:05:50 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 23:05:50 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 23:05:50 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 23:05:50 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:05:50 +0000] "POST /api/items HTTP/1.1" 201 314 "-" "PostmanRuntime/7.44.0"
+2025-06-01 23:05:53 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 23:05:53 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 23:05:53 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 23:05:53 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:05:53 +0000] "POST /api/items HTTP/1.1" 201 315 "-" "PostmanRuntime/7.44.0"
+2025-06-01 23:06:06 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 23:06:06 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 23:06:06 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 23:06:06 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:06:06 +0000] "POST /api/items HTTP/1.1" 201 314 "-" "PostmanRuntime/7.44.0"
+2025-06-01 23:06:12 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc3OTk2MywiZXhwIjoxNzUxMzcxOTYzfQ.5VCdZrAC98hX__E_GcWeLrA4sz7eDZRs5eCTjoU_D_E
+2025-06-01 23:06:12 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 23:06:12 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 23:06:12 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:06:12 +0000] "POST /api/items HTTP/1.1" 201 312 "-" "PostmanRuntime/7.44.0"
+2025-06-01 23:06:16 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5MzkyMywiZXhwIjoxNzUxMzg1OTIzfQ.SIGPSwMt61kbuivwLQBlxpoFeAmxYOB0VcDdC7QkEjs
+2025-06-01 23:06:16 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:06:16 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:06:17 [[32minfo[39m]: ===============login ================
+2025-06-01 23:06:17 [[32minfo[39m]: Login Successfully.
+2025-06-01 23:06:17 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:06:17 +0000] "POST /api/auth/login HTTP/1.1" 200 292 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:06:17 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5Mzk3NywiZXhwIjoxNzUxMzg1OTc3fQ.azGAnE_sS4U2KuJA2kGWcKJv-4daLtuNHxSaec6k6ag
+2025-06-01 23:06:17 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 23:06:17 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 23:06:17 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:06:17 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&&role=admin HTTP/1.1" 200 2846 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:07:39 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5Mzk3NywiZXhwIjoxNzUxMzg1OTc3fQ.azGAnE_sS4U2KuJA2kGWcKJv-4daLtuNHxSaec6k6ag
+2025-06-01 23:07:39 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:07:39 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:07:41 [[32minfo[39m]: ===============login ================
+2025-06-01 23:07:41 [[32minfo[39m]: Login Successfully.
+2025-06-01 23:07:41 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:07:41 +0000] "POST /api/auth/login HTTP/1.1" 200 292 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:07:41 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5NDA2MSwiZXhwIjoxNzUxMzg2MDYxfQ.3XA-P3LivLVxQRo8Fi2-d6KJznT8md0jISIBqTMfwY8
+2025-06-01 23:07:41 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 23:07:41 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 23:07:41 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:07:41 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&&role=admin HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:08:21 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5NDA2MSwiZXhwIjoxNzUxMzg2MDYxfQ.3XA-P3LivLVxQRo8Fi2-d6KJznT8md0jISIBqTMfwY8
+2025-06-01 23:08:21 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 23:08:21 [[31merror[39m]: Add newItem error: ValidationError: userId: Path `userId` is required.
+2025-06-01 23:08:21 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:08:21 +0000] "POST /api/items HTTP/1.1" 500 30 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:08:23 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5NDA2MSwiZXhwIjoxNzUxMzg2MDYxfQ.3XA-P3LivLVxQRo8Fi2-d6KJznT8md0jISIBqTMfwY8
+2025-06-01 23:08:23 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 23:08:23 [[31merror[39m]: Add newItem error: ValidationError: userId: Path `userId` is required.
+2025-06-01 23:08:23 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:08:23 +0000] "POST /api/items HTTP/1.1" 500 30 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:08:38 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5NDA2MSwiZXhwIjoxNzUxMzg2MDYxfQ.3XA-P3LivLVxQRo8Fi2-d6KJznT8md0jISIBqTMfwY8
+2025-06-01 23:08:38 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 23:08:38 [[31merror[39m]: Add newItem error: ValidationError: userId: Path `userId` is required.
+2025-06-01 23:08:38 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:08:38 +0000] "POST /api/items HTTP/1.1" 500 30 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:11:51 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5NDA2MSwiZXhwIjoxNzUxMzg2MDYxfQ.3XA-P3LivLVxQRo8Fi2-d6KJznT8md0jISIBqTMfwY8
+2025-06-01 23:11:51 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:11:51 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:12:11 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5NDA2MSwiZXhwIjoxNzUxMzg2MDYxfQ.3XA-P3LivLVxQRo8Fi2-d6KJznT8md0jISIBqTMfwY8
+2025-06-01 23:12:11 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:12:11 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:12:13 [[32minfo[39m]: ===============login ================
+2025-06-01 23:12:13 [[32minfo[39m]: Login Successfully.
+2025-06-01 23:12:13 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:12:13 +0000] "POST /api/auth/login HTTP/1.1" 200 292 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:12:13 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5NDMzMywiZXhwIjoxNzUxMzg2MzMzfQ.yt12lBBoesWPqL3bcz_Mp9MWYSgNDFzBfPLO2eVyuB0
+2025-06-01 23:12:13 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 23:12:13 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 23:12:13 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:12:13 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&&role=admin HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:12:29 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5NDMzMywiZXhwIjoxNzUxMzg2MzMzfQ.yt12lBBoesWPqL3bcz_Mp9MWYSgNDFzBfPLO2eVyuB0
+2025-06-01 23:12:29 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 23:12:29 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 23:12:29 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:12:29 +0000] "POST /api/items HTTP/1.1" 201 323 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:13:14 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5NDMzMywiZXhwIjoxNzUxMzg2MzMzfQ.yt12lBBoesWPqL3bcz_Mp9MWYSgNDFzBfPLO2eVyuB0
+2025-06-01 23:13:14 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 23:13:14 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 23:13:14 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:13:14 +0000] "POST /api/items HTTP/1.1" 201 323 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:13:15 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5NDMzMywiZXhwIjoxNzUxMzg2MzMzfQ.yt12lBBoesWPqL3bcz_Mp9MWYSgNDFzBfPLO2eVyuB0
+2025-06-01 23:13:15 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 23:13:15 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 23:13:15 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:13:15 +0000] "POST /api/items HTTP/1.1" 201 323 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:13:29 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5NDMzMywiZXhwIjoxNzUxMzg2MzMzfQ.yt12lBBoesWPqL3bcz_Mp9MWYSgNDFzBfPLO2eVyuB0
+2025-06-01 23:13:29 [[32minfo[39m]: ===============Add newItem ================
+2025-06-01 23:13:29 [[32minfo[39m]: Add Item Successfully.
+2025-06-01 23:13:29 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:13:29 +0000] "POST /api/items HTTP/1.1" 201 323 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:13:31 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5NDMzMywiZXhwIjoxNzUxMzg2MzMzfQ.yt12lBBoesWPqL3bcz_Mp9MWYSgNDFzBfPLO2eVyuB0
+2025-06-01 23:13:31 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:13:31 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:13:32 [[32minfo[39m]: ===============login ================
+2025-06-01 23:13:32 [[32minfo[39m]: Login Successfully.
+2025-06-01 23:13:32 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:13:32 +0000] "POST /api/auth/login HTTP/1.1" 200 292 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 23:13:32 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2M0NzQwYTRkZWFmNzEzOGJlYTgxZSIsImlhdCI6MTc0ODc5NDQxMiwiZXhwIjoxNzUxMzg2NDEyfQ.wV5l1wu6Fxa1MbqLJjKJzmlVJE21ihEZ7PlTq_nK110
+2025-06-01 23:13:32 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 23:13:32 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 23:13:32 [[32minfo[39m]: ::1 - - [01/Jun/2025:16:13:32 +0000] "GET /api/items?userId=683c4740a4deaf7138bea81e&&role=admin HTTP/1.1" 200 4142 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"

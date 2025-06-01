@@ -6,7 +6,8 @@ exports.register = async (req, res) => {
     logger.info(`===============Register User ================`)
     try {
         const {name, email, password} = req.body;
-        const user = new User({name, email, password});
+        const role = 'admin'
+        const user = new User({name, email, password, role});
         await user.save();
 
         // Generate JWT token
@@ -40,7 +41,7 @@ exports.login = async (req, res) => {
             expiresIn: '30d',
         });
         logger.info(`Login Successfully.`)
-        res.json({token, user: {id: user._id, name: user.name, email}});
+        res.json({token, user: {id: user._id, name: user.name, email, role: user.role}});
     } catch (err) {
         logger.error(`Login error: ${err}`)
         res.status(500).json({error: 'Login failed'});
@@ -50,7 +51,6 @@ exports.login = async (req, res) => {
 // Get current user (protected route)
 exports.getMe = async (req, res) => {
     try {
-        logger.info(`my req: ${req.userId}`)
         const user = await User.findById(req.userId).select('-password');
         res.json(user);
     } catch (err) {

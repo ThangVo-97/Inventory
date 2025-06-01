@@ -1,16 +1,20 @@
 import { useState, useEffect, useContext } from "react";
 import API from "../utils/api";
 import { AuthContext } from "../context/AuthContext";
+import ItemList from "../components/Items/ItemList";
+import {Container} from "@mui/material";
 
-export default function Dashboard() {
+const Dashboard = () => {
   const [items, setItems] = useState([]);
+  const [loading, setLoading] = useState(true);
   const { user } = useContext(AuthContext);
 
   useEffect(() => {
     const fetchItems = async () => {
       try {
-        const res = await API.get("/items");
+        const res = await API.get(`/items?userId=${user.id}&&role=${user.role}`)
         setItems(res.data);
+        setLoading(false)
       } catch (err) {
         console.error("Failed to fetch items", err);
       }
@@ -19,13 +23,10 @@ export default function Dashboard() {
   }, []);
 
   return (
-    <div>
+    <Container maxWidth='lg'>
       <h1>Welcome, {user?.name}!</h1>
-      <ul>
-        {items.map((item) => (
-          <li key={item._id}>{item.name}</li>
-        ))}
-      </ul>
-    </div>
+      <ItemList items={items} loading={loading} />
+    </Container>
   );
 }
+export default Dashboard
