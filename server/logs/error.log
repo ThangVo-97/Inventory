@@ -6,3 +6,4 @@
 2025-05-31 22:47:47 [[31merror[39m]: my err: Error: secretOrPrivateKey must have a value
 2025-05-31 22:50:38 [[31merror[39m]: my err: MongoServerError: E11000 duplicate key error collection: inventory.users index: email_1 dup key: { email: "john1@example.com" }
 2025-05-31 22:52:03 [[31merror[39m]: Register error: MongoServerError: E11000 duplicate key error collection: inventory.users index: email_1 dup key: { email: "john3@example.com" }
+2025-06-01 16:19:26 [[31merror[39m]: Register error: ValidationError: name: Path `name` is required.

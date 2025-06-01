@@ -6,12 +6,11 @@ export const AuthContext = createContext();
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-
   // Check if user is logged in on app load
   useEffect(() => {
     const checkAuth = async () => {
       try {
-        const res = await API.get("/auth/me");
+        const res = await API.get("/auth/me")
         setUser(res.data);
         setIsAuthenticated(true);
       } catch (err) {
@@ -19,6 +18,7 @@ export const AuthProvider = ({ children }) => {
       }
     };
     checkAuth();
+    
   }, []);
 
   return (

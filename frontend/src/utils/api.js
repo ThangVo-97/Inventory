@@ -6,7 +6,8 @@ const API = axios.create({
 
 // Add JWT token to every request
 API.interceptors.request.use((config) => {
-  const token = localStorage.getItem("token");
+  let token = localStorage.getItem("token");
+  if(!token) token = process.env.TOKEN
   if (token) {
     config.headers["token"] = token;
   }

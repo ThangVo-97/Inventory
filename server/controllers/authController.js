@@ -50,6 +50,7 @@ exports.login = async (req, res) => {
 // Get current user (protected route)
 exports.getMe = async (req, res) => {
     try {
+        logger.info(`my req: ${req.userId}`)
         const user = await User.findById(req.userId).select('-password');
         res.json(user);
     } catch (err) {

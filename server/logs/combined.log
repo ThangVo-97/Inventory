@@ -114,3 +114,95 @@
 2025-05-31 23:24:08 [[32minfo[39m]: Get Items Successfully.
 2025-05-31 23:24:08 [[32minfo[39m]: ::1 - - [31/May/2025:16:24:08 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 200 895 "-" "PostmanRuntime/7.44.0"
 2025-06-01 15:36:33 [[32minfo[39m]: ::1 - - [01/Jun/2025:08:36:33 +0000] "GET /api/auth/me HTTP/1.1" 401 35 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 15:51:43 [[32minfo[39m]: my token: undefined
+2025-06-01 15:51:43 [[32minfo[39m]: ::1 - - [01/Jun/2025:08:51:43 +0000] "GET /api/auth/me HTTP/1.1" 401 35 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 15:51:56 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2IyYjQyNjhiZDc4MGQ2NjAwYzA4MSIsImlhdCI6MTc0ODcwODE2MiwiZXhwIjoxNzUxMzAwMTYyfQ.G9heNp0b1aaCPrQnhZw2fm8tSl2AzetgkDToFK7mEzQ
+2025-06-01 15:51:56 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 15:51:56 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 15:51:56 [[32minfo[39m]: ::1 - - [01/Jun/2025:08:51:56 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 200 895 "-" "PostmanRuntime/7.44.0"
+2025-06-01 15:53:23 [[32minfo[39m]: my token: undefined
+2025-06-01 15:53:23 [[32minfo[39m]: ::1 - - [01/Jun/2025:08:53:23 +0000] "GET /api/auth/me HTTP/1.1" 401 35 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 15:53:34 [[32minfo[39m]: ::1 - - [01/Jun/2025:08:53:34 +0000] "GET /api/auth/me HTTP/1.1" 200 4 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 15:55:20 [[32minfo[39m]: ::1 - - [01/Jun/2025:08:55:20 +0000] "GET /api/auth/me?userId=123 HTTP/1.1" 200 4 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 15:55:23 [[32minfo[39m]: ::1 - - [01/Jun/2025:08:55:23 +0000] "GET /api/auth/me?userId=123 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 15:55:46 [[32minfo[39m]: ::1 - - [01/Jun/2025:08:55:46 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 15:55:48 [[32minfo[39m]: ::1 - - [01/Jun/2025:08:55:48 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 15:57:13 [[32minfo[39m]: ::1 - - [01/Jun/2025:08:57:13 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 15:58:31 [[32minfo[39m]: my req: [object Object]
+2025-06-01 15:58:31 [[32minfo[39m]: ::1 - - [01/Jun/2025:08:58:31 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 15:58:45 [[32minfo[39m]: my req: undefined
+2025-06-01 15:58:45 [[32minfo[39m]: ::1 - - [01/Jun/2025:08:58:45 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 15:58:59 [[32minfo[39m]: my req: undefined
+2025-06-01 15:58:59 [[32minfo[39m]: ::1 - - [01/Jun/2025:08:58:59 +0000] "GET /api/auth/me?userId=123 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:05:19 [[32minfo[39m]: my req: undefined
+2025-06-01 16:05:19 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:05:19 +0000] "GET /api/auth/me?userId=123 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:10:07 [[32minfo[39m]: my req: undefined
+2025-06-01 16:10:07 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:10:07 +0000] "GET /api/auth/me?userId=123 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:10:17 [[32minfo[39m]: my req: undefined
+2025-06-01 16:10:17 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:10:17 +0000] "GET /api/auth/me?userId=123 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:10:27 [[32minfo[39m]: my req: undefined
+2025-06-01 16:10:27 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:10:27 +0000] "GET /api/auth/me?userId=123 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:10:33 [[32minfo[39m]: my req: undefined
+2025-06-01 16:10:33 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:10:33 +0000] "GET /api/auth/me?userId=123 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:10:35 [[32minfo[39m]: my req: undefined
+2025-06-01 16:10:35 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:10:35 +0000] "GET /api/auth/me?userId=123 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:10:49 [[32minfo[39m]: my req: undefined
+2025-06-01 16:10:49 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:10:49 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:13:10 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:13:10 +0000] "GET /api/auth/login HTTP/1.1" 404 153 "-" "PostmanRuntime/7.44.0"
+2025-06-01 16:13:23 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:13:23 +0000] "GET /api/auth/login?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2IyM2MxNmRlMmU5MzRjN2Y5ODVlZiIsImlhdCI6MTc0ODcwNzAwMCwiZXhwIjoxNzUxMjk5MDAwfQ.Hn72xRwr5uUFr9Mw4Qsjmr8g98-csaELgY_w1y6l2UA HTTP/1.1" 404 153 "-" "PostmanRuntime/7.44.0"
+2025-06-01 16:13:45 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:13:45 +0000] "GET /api/auth/login HTTP/1.1" 404 153 "-" "PostmanRuntime/7.44.0"
+2025-06-01 16:14:04 [[32minfo[39m]: my req: undefined
+2025-06-01 16:14:04 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:14:04 +0000] "GET /api/auth/me HTTP/1.1" 200 4 "-" "PostmanRuntime/7.44.0"
+2025-06-01 16:14:05 [[32minfo[39m]: my req: undefined
+2025-06-01 16:14:05 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:14:05 +0000] "GET /api/auth/me HTTP/1.1" 200 4 "-" "PostmanRuntime/7.44.0"
+2025-06-01 16:14:07 [[32minfo[39m]: my req: undefined
+2025-06-01 16:14:07 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:14:07 +0000] "GET /api/auth/me HTTP/1.1" 200 4 "-" "PostmanRuntime/7.44.0"
+2025-06-01 16:15:53 [[32minfo[39m]: my req: undefined
+2025-06-01 16:15:53 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:15:53 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:15:57 [[32minfo[39m]: my req: undefined
+2025-06-01 16:15:57 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:15:57 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:17:10 [[32minfo[39m]: my req: undefined
+2025-06-01 16:17:10 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:17:10 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:17:13 [[32minfo[39m]: my req: undefined
+2025-06-01 16:17:13 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:17:13 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:17:36 [[32minfo[39m]: my req: undefined
+2025-06-01 16:17:36 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:17:36 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:17:40 [[32minfo[39m]: ===============login ================
+2025-06-01 16:17:40 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:17:40 +0000] "POST /api/auth/login HTTP/1.1" 401 37 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:18:09 [[32minfo[39m]: ===============login ================
+2025-06-01 16:18:09 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:18:09 +0000] "POST /api/auth/login HTTP/1.1" 401 37 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:18:30 [[32minfo[39m]: my req: undefined
+2025-06-01 16:18:30 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:18:30 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:19:26 [[32minfo[39m]: ===============Register User ================
+2025-06-01 16:19:26 [[31merror[39m]: Register error: ValidationError: name: Path `name` is required.
+2025-06-01 16:19:26 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:19:26 +0000] "POST /api/auth/register HTTP/1.1" 500 31 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:20:18 [[32minfo[39m]: my req: undefined
+2025-06-01 16:20:18 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:20:18 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:20:19 [[32minfo[39m]: ===============Register User ================
+2025-06-01 16:20:19 [[32minfo[39m]: Register Successfully.
+2025-06-01 16:20:19 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:20:19 +0000] "POST /api/auth/register HTTP/1.1" 201 275 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:20:19 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjUzZGUyZTMzODM0MThiYzMyMSIsImlhdCI6MTc0ODc2OTYxOSwiZXhwIjoxNzUxMzYxNjE5fQ.flwLny_aGO_R91bc0we8orr7BlFRvbDtORf2vFq2OCg
+2025-06-01 16:20:19 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 16:20:19 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 16:20:19 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:20:19 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:20:49 [[32minfo[39m]: my req: undefined
+2025-06-01 16:20:49 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:20:49 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:20:51 [[32minfo[39m]: ===============login ================
+2025-06-01 16:20:51 [[32minfo[39m]: Login Successfully.
+2025-06-01 16:20:51 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:20:51 +0000] "POST /api/auth/login HTTP/1.1" 200 275 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:20:51 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjUzZGUyZTMzODM0MThiYzMyMSIsImlhdCI6MTc0ODc2OTY1MSwiZXhwIjoxNzUxMzYxNjUxfQ.W2g1slKSb2uyU6N0evATgI5jbUFP3sBn1Tss6m7lgu8
+2025-06-01 16:20:51 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 16:20:51 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 16:20:51 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:20:51 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:20:55 [[32minfo[39m]: my req: undefined
+2025-06-01 16:20:55 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:20:55 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:20:58 [[32minfo[39m]: ===============Register User ================
+2025-06-01 16:20:58 [[32minfo[39m]: Register Successfully.
+2025-06-01 16:20:58 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:20:58 +0000] "POST /api/auth/register HTTP/1.1" 201 277 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:21:03 [[32minfo[39m]: ===============login ================
+2025-06-01 16:21:03 [[32minfo[39m]: Login Successfully.
+2025-06-01 16:21:03 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:21:03 +0000] "POST /api/auth/login HTTP/1.1" 200 277 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-06-01 16:21:03 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2MxYjdhZGUyZTMzODM0MThiYzMyOCIsImlhdCI6MTc0ODc2OTY2MywiZXhwIjoxNzUxMzYxNjYzfQ.pCTSL6y53Dfd8KK9m-9EBaQNCXarOOshg8fLXMG1Rr0
+2025-06-01 16:21:03 [[32minfo[39m]: ===============Get Items ================
+2025-06-01 16:21:03 [[32minfo[39m]: Get Items Successfully.
+2025-06-01 16:21:03 [[32minfo[39m]: ::1 - - [01/Jun/2025:09:21:03 +0000] "GET /api/items HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
