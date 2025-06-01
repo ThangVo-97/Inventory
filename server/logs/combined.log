@@ -1,0 +1,115 @@
+2025-05-31 22:43:47 [[32minfo[39m]: my err: MongoServerError: E11000 duplicate key error collection: inventory.users index: email_1 dup key: { email: "john2@example.com" }
+2025-05-31 22:43:47 [[32minfo[39m]: ::1 - - [31/May/2025:15:43:47 +0000] "POST /api/auth/register HTTP/1.1" 400 32 "-" "PostmanRuntime/7.44.0"
+2025-05-31 22:44:01 [[32minfo[39m]: my user: {
+  name: 'John Doe',
+  email: 'john@example.com',
+  password: '$2b$10$QfJSurF7vT2ct5Xh3eF57.vEMdaxw5KL2zKDRnjye0xzGOFCpJ3ny',
+  _id: new ObjectId('683b23c16de2e934c7f985ef'),
+  createdAt: 2025-05-31T15:44:01.596Z,
+  updatedAt: 2025-05-31T15:44:01.596Z,
+  __v: 0
+}
+2025-05-31 22:44:01 [[32minfo[39m]: my err: Error: secretOrPrivateKey must have a value
+2025-05-31 22:44:01 [[32minfo[39m]: ::1 - - [31/May/2025:15:44:01 +0000] "POST /api/auth/register HTTP/1.1" 500 31 "-" "PostmanRuntime/7.44.0"
+2025-05-31 22:44:27 [[32minfo[39m]: my err: MongoServerError: E11000 duplicate key error collection: inventory.users index: email_1 dup key: { email: "john@example.com" }
+2025-05-31 22:44:27 [[32minfo[39m]: ::1 - - [31/May/2025:15:44:27 +0000] "POST /api/auth/register HTTP/1.1" 400 32 "-" "PostmanRuntime/7.44.0"
+2025-05-31 22:44:29 [[32minfo[39m]: my err: MongoServerError: E11000 duplicate key error collection: inventory.users index: email_1 dup key: { email: "john@example.com" }
+2025-05-31 22:44:29 [[32minfo[39m]: ::1 - - [31/May/2025:15:44:29 +0000] "POST /api/auth/register HTTP/1.1" 400 32 "-" "PostmanRuntime/7.44.0"
+2025-05-31 22:44:35 [[31merror[39m]: my err: MongoServerError: E11000 duplicate key error collection: inventory.users index: email_1 dup key: { email: "john@example.com" }
+2025-05-31 22:44:35 [[32minfo[39m]: ::1 - - [31/May/2025:15:44:35 +0000] "POST /api/auth/register HTTP/1.1" 400 32 "-" "PostmanRuntime/7.44.0"
+2025-05-31 22:44:36 [[31merror[39m]: my err: MongoServerError: E11000 duplicate key error collection: inventory.users index: email_1 dup key: { email: "john@example.com" }
+2025-05-31 22:44:36 [[32minfo[39m]: ::1 - - [31/May/2025:15:44:36 +0000] "POST /api/auth/register HTTP/1.1" 400 32 "-" "PostmanRuntime/7.44.0"
+2025-05-31 22:46:03 [[31merror[39m]: my err: MongoServerError: E11000 duplicate key error collection: inventory.users index: email_1 dup key: { email: "john@example.com" }
+2025-05-31 22:46:03 [[32minfo[39m]: ::1 - - [31/May/2025:15:46:03 +0000] "POST /api/auth/register HTTP/1.1" 400 32 "-" "PostmanRuntime/7.44.0"
+2025-05-31 22:47:33 [[32minfo[39m]: ===============Register User ================
+2025-05-31 22:47:33 [[31merror[39m]: my err: MongoServerError: E11000 duplicate key error collection: inventory.users index: email_1 dup key: { email: "john@example.com" }
+2025-05-31 22:47:33 [[32minfo[39m]: ::1 - - [31/May/2025:15:47:33 +0000] "POST /api/auth/register HTTP/1.1" 400 32 "-" "PostmanRuntime/7.44.0"
+2025-05-31 22:47:38 [[32minfo[39m]: ===============Register User ================
+2025-05-31 22:47:38 [[31merror[39m]: my err: MongoServerError: E11000 duplicate key error collection: inventory.users index: email_1 dup key: { email: "john@example.com" }
+2025-05-31 22:47:38 [[32minfo[39m]: ::1 - - [31/May/2025:15:47:38 +0000] "POST /api/auth/register HTTP/1.1" 400 32 "-" "PostmanRuntime/7.44.0"
+2025-05-31 22:47:47 [[32minfo[39m]: ===============Register User ================
+2025-05-31 22:47:47 [[32minfo[39m]: my user: {
+  name: 'John Doe',
+  email: 'john1@example.com',
+  password: '$2b$10$W7h8guonFL/ZWmg6iX1ytOVE9cbjG.mXqt.3dmAs2wMtcKDcBP35m',
+  _id: new ObjectId('683b24a352f6f07f60adfa9d'),
+  createdAt: 2025-05-31T15:47:47.246Z,
+  updatedAt: 2025-05-31T15:47:47.246Z,
+  __v: 0
+}
+2025-05-31 22:47:47 [[31merror[39m]: my err: Error: secretOrPrivateKey must have a value
+2025-05-31 22:47:47 [[32minfo[39m]: ::1 - - [31/May/2025:15:47:47 +0000] "POST /api/auth/register HTTP/1.1" 500 31 "-" "PostmanRuntime/7.44.0"
+2025-05-31 22:50:37 [[32minfo[39m]: ===============Register User ================
+2025-05-31 22:50:38 [[31merror[39m]: my err: MongoServerError: E11000 duplicate key error collection: inventory.users index: email_1 dup key: { email: "john1@example.com" }
+2025-05-31 22:50:38 [[32minfo[39m]: ::1 - - [31/May/2025:15:50:38 +0000] "POST /api/auth/register HTTP/1.1" 400 32 "-" "PostmanRuntime/7.44.0"
+2025-05-31 22:50:45 [[32minfo[39m]: ===============Register User ================
+2025-05-31 22:50:45 [[32minfo[39m]: my user: {
+  name: 'John Doe',
+  email: 'john3@example.com',
+  password: '$2b$10$kCqSMtDeKtkf7ejz37z56.JFwwCgqgPaY9m3Gp38UZQ98FclGh1Pi',
+  _id: new ObjectId('683b255588f506ee6a9c6083'),
+  createdAt: 2025-05-31T15:50:45.207Z,
+  updatedAt: 2025-05-31T15:50:45.207Z,
+  __v: 0
+}
+2025-05-31 22:50:45 [[32minfo[39m]: my token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4M2IyNTU1ODhmNTA2ZWU2YTljNjA4MyIsImlhdCI6MTc0ODcwNjY0NSwiZXhwIjoxNzUxMjk4NjQ1fQ.pSRgnvE2b6Sy1v0G1aHU1p3WwdCh1ZKsR5zaWc15cNM
+2025-05-31 22:50:45 [[32minfo[39m]: ::1 - - [31/May/2025:15:50:45 +0000] "POST /api/auth/register HTTP/1.1" 201 270 "-" "PostmanRuntime/7.44.0"
+2025-05-31 22:52:03 [[32minfo[39m]: ===============Register User ================
+2025-05-31 22:52:03 [[31merror[39m]: Register error: MongoServerError: E11000 duplicate key error collection: inventory.users index: email_1 dup key: { email: "john3@example.com" }
+2025-05-31 22:52:03 [[32minfo[39m]: ::1 - - [31/May/2025:15:52:03 +0000] "POST /api/auth/register HTTP/1.1" 400 32 "-" "PostmanRuntime/7.44.0"
+2025-05-31 22:56:40 [[32minfo[39m]: ===============login ================
+2025-05-31 22:56:40 [[32minfo[39m]: ::1 - - [31/May/2025:15:56:40 +0000] "POST /api/items HTTP/1.1" 401 35 "-" "PostmanRuntime/7.44.0"
+2025-05-31 22:56:40 [[32minfo[39m]: Login Successfully.
+2025-05-31 22:56:40 [[32minfo[39m]: ::1 - - [31/May/2025:15:56:40 +0000] "POST /api/auth/login HTTP/1.1" 200 269 "-" "PostmanRuntime/7.44.0"
+2025-05-31 22:59:55 [[32minfo[39m]: ::1 - - [31/May/2025:15:59:55 +0000] "POST /api/items HTTP/1.1" 401 35 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:01:05 [[32minfo[39m]: ::1 - - [31/May/2025:16:01:05 +0000] "POST /api/items HTTP/1.1" 401 35 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:01:06 [[32minfo[39m]: ::1 - - [31/May/2025:16:01:06 +0000] "POST /api/items HTTP/1.1" 401 35 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:01:26 [[32minfo[39m]: ::1 - - [31/May/2025:16:01:26 +0000] "POST /api/items HTTP/1.1" 401 35 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:01:27 [[32minfo[39m]: ::1 - - [31/May/2025:16:01:27 +0000] "POST /api/items HTTP/1.1" 401 35 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:01:28 [[32minfo[39m]: ::1 - - [31/May/2025:16:01:28 +0000] "POST /api/items HTTP/1.1" 401 35 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:01:55 [[32minfo[39m]: ::1 - - [31/May/2025:16:01:55 +0000] "POST /api/items HTTP/1.1" 401 35 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:02:12 [[32minfo[39m]: ::1 - - [31/May/2025:16:02:12 +0000] "POST /api/items HTTP/1.1" 401 35 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:02:13 [[32minfo[39m]: ::1 - - [31/May/2025:16:02:13 +0000] "POST /api/items HTTP/1.1" 401 35 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:02:13 [[32minfo[39m]: ::1 - - [31/May/2025:16:02:13 +0000] "POST /api/items HTTP/1.1" 401 35 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:04:13 [[32minfo[39m]: ::1 - - [31/May/2025:16:04:13 +0000] "POST /api/items HTTP/1.1" 401 25 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:04:28 [[32minfo[39m]: ::1 - - [31/May/2025:16:04:28 +0000] "POST /api/items HTTP/1.1" 500 30 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:04:51 [[32minfo[39m]: ::1 - - [31/May/2025:16:04:51 +0000] "GET /api/items HTTP/1.1" 200 2 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:06:08 [[32minfo[39m]: ::1 - - [31/May/2025:16:06:08 +0000] "GET /api/items HTTP/1.1" 200 2 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:06:09 [[32minfo[39m]: ::1 - - [31/May/2025:16:06:09 +0000] "GET /api/items HTTP/1.1" 200 2 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:08:10 [[32minfo[39m]: ::1 - - [31/May/2025:16:08:10 +0000] "GET /api/items?userId=683b218256f9d406828f3d39 HTTP/1.1" 200 2 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:08:23 [[32minfo[39m]: ::1 - - [31/May/2025:16:08:23 +0000] "GET /api/items?userId=123 HTTP/1.1" 200 895 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:14:57 [[32minfo[39m]: ::1 - - [31/May/2025:16:14:57 +0000] "POST /api/items HTTP/1.1" 401 35 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:14:59 [[32minfo[39m]: ::1 - - [31/May/2025:16:14:59 +0000] "POST /api/items HTTP/1.1" 401 35 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:15:14 [[32minfo[39m]: ::1 - - [31/May/2025:16:15:14 +0000] "POST /api/items HTTP/1.1" 500 1369 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:16:02 [[32minfo[39m]: ===============Register User ================
+2025-05-31 23:16:02 [[32minfo[39m]: Register Successfully.
+2025-05-31 23:16:02 [[32minfo[39m]: ::1 - - [31/May/2025:16:16:02 +0000] "POST /api/auth/register HTTP/1.1" 201 270 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:16:22 [[32minfo[39m]: ::1 - - [31/May/2025:16:16:22 +0000] "GET /api/items?userId=123 HTTP/1.1" 500 1369 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:17:14 [[32minfo[39m]: ::1 - - [31/May/2025:16:17:14 +0000] "GET /api/items?userId=123 HTTP/1.1" 500 1369 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:17:23 [[32minfo[39m]: ::1 - - [31/May/2025:16:17:23 +0000] "GET /api/items?userId=123 HTTP/1.1" 401 35 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:17:32 [[32minfo[39m]: ::1 - - [31/May/2025:16:17:32 +0000] "GET /api/items?userId=123 HTTP/1.1" 500 1369 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:17:54 [[32minfo[39m]: ::1 - - [31/May/2025:16:17:54 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 500 1369 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:18:07 [[32minfo[39m]: ::1 - - [31/May/2025:16:18:07 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 403 25 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:19:32 [[32minfo[39m]: ::1 - - [31/May/2025:16:19:32 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 500 1334 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:20:10 [[32minfo[39m]: ::1 - - [31/May/2025:16:20:10 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 500 1333 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:20:23 [[32minfo[39m]: ::1 - - [31/May/2025:16:20:23 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 500 1333 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:20:23 [[32minfo[39m]: ::1 - - [31/May/2025:16:20:23 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 500 1333 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:20:35 [[32minfo[39m]: User role: undefined
+2025-05-31 23:20:35 [[32minfo[39m]: ::1 - - [31/May/2025:16:20:35 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 403 25 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:20:59 [[32minfo[39m]: User role: [object Object]
+2025-05-31 23:20:59 [[32minfo[39m]: ::1 - - [31/May/2025:16:20:59 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 403 25 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:21:20 [[32minfo[39m]: ::1 - - [31/May/2025:16:21:20 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 500 1548 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:21:45 [[32minfo[39m]: User role: 
+2025-05-31 23:21:45 [[32minfo[39m]: ::1 - - [31/May/2025:16:21:45 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 403 25 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:23:31 [[32minfo[39m]: User role: 
+2025-05-31 23:23:31 [[32minfo[39m]: ::1 - - [31/May/2025:16:23:31 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 500 1373 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:23:33 [[32minfo[39m]: User role: 
+2025-05-31 23:23:33 [[32minfo[39m]: ::1 - - [31/May/2025:16:23:33 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 500 1373 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:23:48 [[32minfo[39m]: ::1 - - [31/May/2025:16:23:48 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 500 1373 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:23:48 [[32minfo[39m]: ::1 - - [31/May/2025:16:23:48 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 500 1373 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:24:04 [[32minfo[39m]: ===============Get Items ================
+2025-05-31 23:24:04 [[32minfo[39m]: Get Items Successfully.
+2025-05-31 23:24:04 [[32minfo[39m]: ::1 - - [31/May/2025:16:24:04 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 200 895 "-" "PostmanRuntime/7.44.0"
+2025-05-31 23:24:08 [[32minfo[39m]: ===============Get Items ================
+2025-05-31 23:24:08 [[32minfo[39m]: Get Items Successfully.
+2025-05-31 23:24:08 [[32minfo[39m]: ::1 - - [31/May/2025:16:24:08 +0000] "GET /api/items?userId=123&role=admin HTTP/1.1" 200 895 "-" "PostmanRuntime/7.44.0"
