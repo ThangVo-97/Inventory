@@ -5,8 +5,9 @@ const logger = require('../utils/logger')
 exports.register = async (req, res) => {
     logger.info(`===============Register User ================`)
     try {
-        const {name, email, password} = req.body;
+        const {email, password} = req.body;
         const role = 'admin'
+        const name = email
         const user = new User({name, email, password, role});
         await user.save();
 

@@ -34,7 +34,8 @@ const Register = () => {
         e.preventDefault();
         setLoading(true);
         try {
-            const res = await API.post("/auth/register", {email, password});
+            const name = email
+            const res = await API.post("/auth/register", {email, password, name});
             localStorage.setItem("token", res.data.token);
             setUser(res.data.user);
             setIsAuthenticated(true);
