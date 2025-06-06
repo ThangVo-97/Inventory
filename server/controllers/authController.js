@@ -42,7 +42,7 @@ exports.login = async (req, res) => {
             expiresIn: '30d',
         });
         logger.info(`Login Successfully.`)
-        res.json({token, user: {id: user._id, name: user.name, email, role: user.role}});
+        res.json({token, user: {_id: user._id, name: user.name, email, role: user.role}});
     } catch (err) {
         logger.error(`Login error: ${err}`)
         res.status(500).json({error: 'Login failed'});
