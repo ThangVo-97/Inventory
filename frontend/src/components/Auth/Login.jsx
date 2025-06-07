@@ -57,7 +57,6 @@ const Login = () => {
             <Paper
                 elevation={3}
                 sx={{
-                    mt: 8,
                     p: 4,
                     boxShadow: 3,
                     borderRadius: 2,

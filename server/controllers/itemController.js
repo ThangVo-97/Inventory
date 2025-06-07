@@ -43,3 +43,20 @@ exports.deleteItem = async (req, res) => {
     res.status(500).json({ error: 'Failed to delete item' });
   }
 };
+
+
+// search item by name
+exports.searchItem = async (req, res) => {
+  try {
+    logger.info(`===============Search Items ================`)
+    const { q } = req.query;
+    const items = await Item.find({ 
+      name: {$regex: q, $options: 'i'}
+     });
+    logger.info(`Search Items Successfully.`)
+    res.json(items);
+  } catch (err) {
+    logger.error(`Search Items error: ${err}`)
+    res.status(500).json({ error: 'Failed to search items' });
+  }
+};

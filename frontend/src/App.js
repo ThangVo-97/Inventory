@@ -13,6 +13,7 @@ import {Link} from 'react-router-dom';
 const App = () => {
   const {isAuthenticated} = useContext(AuthContext);
   console.log('my authen App: ', isAuthenticated)
+
   return (
     <>
       <BrowserRouter>
@@ -26,18 +27,33 @@ const App = () => {
             </Button>
           </Toolbar>
         </AppBar>
-        <Routes >
-          <Route path='/login' element={<Login />} />
-          <Route path='/register' element={<Register />} />
-          <Route
-            path='/dashboard'
-            element={
-              <PrivateRoute>
-                <Dashboard />
-              </PrivateRoute>
-            }
-          />
-        </Routes>
+        {/* margin header */}
+        <div style={{marginTop: '64px'}}>
+          <Routes sx={{}}>
+
+            {/* {
+  isAuthenticated ?
+    (
+
+      
+    )
+    :
+    (
+      <Route path='/login' element={<Login />} />
+    ) */}
+
+
+            {<Route path='/login' element={<Login />} />}
+            <Route path='/register' element={<Register />} />
+            <Route path='/dashboard'
+              element={
+                <PrivateRoute>
+                  <Dashboard />
+                </PrivateRoute>
+              } />
+          </Routes>
+        </div>
+
 
       </BrowserRouter>
     </>
