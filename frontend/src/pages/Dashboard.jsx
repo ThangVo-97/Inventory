@@ -12,9 +12,10 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchItems = async () => {
       try {
-        const res = await API.get(`/items?userId=${user.id}&&role=${user.role}`)
+        const res = await API.get(`/items?userId=${user._id}&&role=${user.role}`)
         setItems(res.data);
         setLoading(false)
+        
       } catch (err) {
         console.error("Failed to fetch items", err);
       }

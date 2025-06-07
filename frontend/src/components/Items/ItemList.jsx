@@ -36,9 +36,9 @@ const ItemList = ({items, loading}) => {
                 Add New Item
             </Button>
 
-            <Grid container spacing={3} sx={{p: 3}}>
+            <Grid container spacing={3} xs={2} sx={{display: 'flex', width: '100%'}}>
                 {items.map((item) => (
-                    <Grid item key={item._id} xs={12} sm={6} md={4} lg={3}>
+                    <Grid item key={item._id} xs={12} sm={6} md={4} lg={3} sx={{width: '20%', minWidth: '200px'}}>
                         <ItemCard
                             item={item}
                             onEdit={() => {
