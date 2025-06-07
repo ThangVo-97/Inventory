@@ -1,12 +1,24 @@
-import {useState, useEffect} from 'react';
+import {useState, useEffect, useMemo} from 'react';
 import {Button, Typography, Grid, CircularProgress} from '@mui/material';
 import API from '../../utils/api';
 import ItemForm from './ItemForm';
 import ItemCard from './ItemCard';
+import CategoryFilterBar from '../CategoryFilterBar';
 
 const ItemList = ({items, loading}) => {
     const [openForm, setOpenForm] = useState(false);
     const [currentItem, setCurrentItem] = useState(null);
+    const [selectedCategory, setSelectedCategory] = useState('All');
+    const [searchQuery, setSearchQuery] = useState('');
+
+    const filteredItems = useMemo(() => {
+        return items.filter(item => {
+            const matchesCategory = selectedCategory === 'All' ||
+                item.category === selectedCategory;
+            const matchesSearch = item.name.toLowerCase().includes(searchQuery.toLowerCase());
+            return matchesCategory && matchesSearch;
+        });
+    }, [items, selectedCategory, searchQuery]);
 
     const handleDelete = async (id) => {
         try {
@@ -21,24 +33,30 @@ const ItemList = ({items, loading}) => {
 
     return (
         <div>
-            <Typography variant="h4" gutterBottom>
-                Your Inventory
-            </Typography>
+            <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+                <Typography variant="h4" gutterBottom>
+                    Your Inventory
+                </Typography>
 
-            <Button
-                variant="contained"
-                onClick={() => {
-                    setCurrentItem(null);
-                    setOpenForm(true);
-                }}
-                sx={{mb: 3}}
-            >
-                Add New Item
-            </Button>
+                <Button
+                    variant="contained"
+                    onClick={() => {
+                        setCurrentItem(null);
+                        setOpenForm(true);
+                    }}
+                    sx={{mb: 3}}
+                >
+                    Add New Item
+                </Button>
+            </div>
 
+            <CategoryFilterBar
+                selectedCategory={selectedCategory}
+                onCategoryChange={setSelectedCategory}
+            />
             <Grid container spacing={3} xs={2} sx={{display: 'flex', width: '100%'}}>
-                {items.map((item) => (
-                    <Grid item key={item._id} xs={12} sm={6} md={4} lg={3} sx={{width: '20%', minWidth: '200px'}}>
+                {filteredItems.map((item) => (
+                    <Grid item key={item._id} xs={12} sm={6} md={4} lg={3} sx={{width: '23%', minWidth: '200px'}}>
                         <ItemCard
                             item={item}
                             onEdit={() => {

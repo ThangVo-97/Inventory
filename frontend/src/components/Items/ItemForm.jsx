@@ -2,8 +2,7 @@ import { useState, useContext } from 'react';
 import { Dialog, DialogTitle, DialogContent, DialogActions, TextField, Button, MenuItem } from '@mui/material';
 import API from '../../utils/api';
 import {AuthContext} from '../../context/AuthContext';
-
-const categories = ['Electronics', 'Furniture', 'Clothing', 'Books', 'Other'];
+import { categories } from '../../utils/constant';
 
 const ItemForm = ({ open, onClose, item, refreshItems }) => {
     const { user } = useContext(AuthContext);

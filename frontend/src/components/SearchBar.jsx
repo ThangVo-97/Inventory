@@ -14,7 +14,6 @@ const SearchBar = ({onSearchResults}) => {
     const [loading, setLoading] = useState(false);
     
     const handleSearch = async () => {
-        if (!query.trim()) return;
         setLoading(true);
         try {
             const res = await API.get(`/items/search?q=${encodeURIComponent(query)}`);

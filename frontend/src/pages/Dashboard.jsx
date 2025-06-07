@@ -30,7 +30,7 @@ const Dashboard = () => {
   }
 
   return (
-    <Container maxWidth='lg'>
+    <Container maxWidth='lg' sx={{bgcolor: "#f2f6fc", p: 0}}>
       <h1>Welcome, {user?.name}!</h1>
       <SearchBar onSearchResults={handleSearchResults} />
       <ItemList items={displayedItems} loading={loading} />

@@ -28,8 +28,8 @@ const App = () => {
           </Toolbar>
         </AppBar>
         {/* margin header */}
-        <div style={{marginTop: '64px'}}>
-          <Routes sx={{}}>
+        <div style={{marginTop: '64px', width: '100%', p: 0}}>
+          <Routes>
 
             {/* {
   isAuthenticated ?
