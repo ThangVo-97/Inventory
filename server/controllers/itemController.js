@@ -5,14 +5,14 @@ const logger = require('../utils/logger')
 exports.addItem = async (req, res) => {
   try {
     logger.info(`===============Add newItem ================`)
-    const { name, category, price, warrantyExpiry, location, userId } = req.body;
-    const newItem = new Item({ name, category, price, warrantyExpiry, location, userId });
+    const {name, category, price, warrantyExpiry, location, userId} = req.body;
+    const newItem = new Item({name, category, price, warrantyExpiry, location, userId});
     await newItem.save();
     logger.info(`Add Item Successfully.`)
     res.status(201).json(newItem);
   } catch (err) {
     logger.error(`Add newItem error: ${err}`)
-    res.status(500).json({ error: 'Failed to add item' });
+    res.status(500).json({error: 'Failed to add item'});
   }
 };
 
@@ -20,13 +20,13 @@ exports.addItem = async (req, res) => {
 exports.getItems = async (req, res) => {
   try {
     logger.info(`===============Get Items ================`)
-    const { userId } = req.query;
-    const items = await Item.find({ userId });
+    const {userId} = req.query;
+    const items = await Item.find({userId});
     logger.info(`Get Items Successfully.`)
     res.json(items);
   } catch (err) {
     logger.error(`Get Items error: ${err}`)
-    res.status(500).json({ error: 'Failed to fetch items' });
+    res.status(500).json({error: 'Failed to fetch items'});
   }
 };
 
@@ -34,13 +34,13 @@ exports.getItems = async (req, res) => {
 exports.deleteItem = async (req, res) => {
   try {
     logger.info(`===============Delete Item ================`)
-    const { id } = req.params;
+    const {id} = req.params;
     await Item.findByIdAndDelete(id);
     logger.info(`Delete Item Successfully.`)
-    res.json({ message: 'Item deleted successfully' });
+    res.json({message: 'Item deleted successfully'});
   } catch (err) {
     logger.error(`Delete Item error: ${err}`)
-    res.status(500).json({ error: 'Failed to delete item' });
+    res.status(500).json({error: 'Failed to delete item'});
   }
 };
 
@@ -49,14 +49,78 @@ exports.deleteItem = async (req, res) => {
 exports.searchItem = async (req, res) => {
   try {
     logger.info(`===============Search Items ================`)
-    const { q } = req.query;
-    const items = await Item.find({ 
+    const {q} = req.query;
+    const items = await Item.find({
       name: {$regex: q, $options: 'i'}
-     });
+    });
     logger.info(`Search Items Successfully.`)
     res.json(items);
   } catch (err) {
     logger.error(`Search Items error: ${err}`)
-    res.status(500).json({ error: 'Failed to search items' });
+    res.status(500).json({error: 'Failed to search items'});
+  }
+};
+
+// filter item by name
+exports.filterItem = async (req, res) => {
+  try {
+    logger.info(`===============Filter Items ================`)
+    const {category, archive, name} = req.query;
+    const query = {}
+    const currentDate = new Date()
+    let queryWarrantExpiry = {$lte: currentDate}
+
+    if (archive === 'true') {
+      queryWarrantExpiry = {$gte: currentDate}
+    }
+
+    if (name) {
+      query.name = {
+        $regex: name,
+        $options: 'i'
+      }
+    }
+
+    query.category = {
+      $regex: category,
+      $options: 'i'
+    }
+    query.warrantyExpiry = queryWarrantExpiry
+
+    const items = await Item.find(query);
+
+    logger.info(`Filter Items Successfully.`)
+    res.json(items);
+  } catch (err) {
+    logger.error(`Filter Items error: ${err}`)
+    res.status(500).json({error: 'Failed to Filter items'});
+  }
+};
+
+
+// filter item by name
+exports.sortItem = async (req, res) => {
+  try {
+    logger.info(`===============sort Items ================`)
+    const { sortBy, sortOrder = 'asc'} = req.query;
+    const sortOptions = {}
+
+    if(sortBy) {
+      const validSortFields = ['name', 'price', 'createdAt', 'warrantyExpiry', 'category'];
+      if(validSortFields.includes(sortBy)) {
+        sortOptions[sortBy] = sortOrder === 'desc' ? -1 : 1;
+      }
+
+    }
+
+    const items = await Item.find({})
+    .sort(sortOptions)
+    .collation({locale: 'en', strength: 2})
+
+    logger.info(`Filter Items Successfully.`)
+    res.json(items);
+  } catch (err) {
+    logger.error(`Filter Items error: ${err}`)
+    res.status(500).json({error: 'Failed to Filter items'});
   }
 };
