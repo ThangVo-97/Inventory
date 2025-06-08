@@ -69,6 +69,7 @@ exports.filterItem = async (req, res) => {
     const query = {}
     const currentDate = new Date()
     let queryWarrantExpiry = {$lte: currentDate}
+    let items = {}
 
     if (archive === 'true') {
       queryWarrantExpiry = {$gte: currentDate}
@@ -81,13 +82,17 @@ exports.filterItem = async (req, res) => {
       }
     }
 
-    query.category = {
-      $regex: category,
-      $options: 'i'
-    }
+    logger.info(`my log: ${JSON.stringify(category)}`)
+    if (category !== 'All') {
+      query.category = {
+        $regex: category,
+        $options: 'i'
+      }
+    } 
+    
     query.warrantyExpiry = queryWarrantExpiry
-
-    const items = await Item.find(query);
+    logger.info(`my log: ${JSON.stringify(query)}`)
+    items = await Item.find(query);
 
     logger.info(`Filter Items Successfully.`)
     res.json(items);
@@ -102,20 +107,20 @@ exports.filterItem = async (req, res) => {
 exports.sortItem = async (req, res) => {
   try {
     logger.info(`===============sort Items ================`)
-    const { sortBy, sortOrder = 'asc'} = req.query;
+    const {sortBy, sortOrder = 'asc'} = req.query;
     const sortOptions = {}
 
-    if(sortBy) {
+    if (sortBy) {
       const validSortFields = ['name', 'price', 'createdAt', 'warrantyExpiry', 'category'];
-      if(validSortFields.includes(sortBy)) {
+      if (validSortFields.includes(sortBy)) {
         sortOptions[sortBy] = sortOrder === 'desc' ? -1 : 1;
       }
 
     }
 
     const items = await Item.find({})
-    .sort(sortOptions)
-    .collation({locale: 'en', strength: 2})
+      .sort(sortOptions)
+      .collation({locale: 'en', strength: 2})
 
     logger.info(`Filter Items Successfully.`)
     res.json(items);
