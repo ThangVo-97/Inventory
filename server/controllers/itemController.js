@@ -65,14 +65,14 @@ exports.searchItem = async (req, res) => {
 exports.filterItem = async (req, res) => {
   try {
     logger.info(`===============Filter Items ================`)
-    const {category, archive, name} = req.query;
-    const query = {}
+    const {userId, category, archive, name} = req.query;
+    const query = {userId}
     const currentDate = new Date()
-    let queryWarrantExpiry = {$lte: currentDate}
+    let queryWarrantExpiry = {$gte: currentDate}
     let items = {}
 
     if (archive === 'true') {
-      queryWarrantExpiry = {$gte: currentDate}
+      queryWarrantExpiry = {$lte: currentDate}
     }
 
     if (name) {

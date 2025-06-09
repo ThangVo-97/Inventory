@@ -1,11 +1,13 @@
-import {useState, useEffect, useMemo} from 'react';
+import {useState, useEffect, useContext} from 'react';
 import {Button, Typography, Grid, CircularProgress, FormGroup, FormControlLabel, Switch} from '@mui/material';
+import { AuthContext } from '../../context/AuthContext';
 import API from '../../utils/api';
 import ItemForm from './ItemForm';
 import ItemCard from './ItemCard';
 import CategoryFilterBar from '../CategoryFilterBar';
 
 const ItemList = ({items, loading}) => {
+    const {user} = useContext(AuthContext);
     const [openForm, setOpenForm] = useState(false);
     const [currentItem, setCurrentItem] = useState(null);
     const [selectedCategory, setSelectedCategory] = useState('All');
@@ -17,7 +19,7 @@ const ItemList = ({items, loading}) => {
     const handleDelete = async (id) => {
         try {
             await API.delete(`/items/${id}`);
-            //   setItems(items.filter(item => item._id !== id));
+            setFilteredItems(filteredItems.filter(item => item._id !== id));
         } catch (err) {
             console.error('Failed to delete item', err);
         }
@@ -32,14 +34,14 @@ const ItemList = ({items, loading}) => {
     }, [items])
 
     useEffect(() => {
-        if(showArchiveItem === false && selectedCategory === 'All'){
+        if (showArchiveItem === false && selectedCategory === 'All') {
             setFilteredItems(items);
             return
         }
         const fetchItems = async () => {
             try {
-                const res = await API.get(`/items/filter-item?category=${selectedCategory}&archive=${showArchiveItem}`)
-                  setFilteredItems(res.data);
+                const res = await API.get(`/items/filter-item?userId=${user._id}&category=${selectedCategory}&archive=${showArchiveItem}`)
+                setFilteredItems(res.data);
                 //   setLoading(false)
                 //   setDisplayedItems(res.data)
             } catch (err) {
