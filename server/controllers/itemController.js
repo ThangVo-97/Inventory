@@ -82,17 +82,18 @@ exports.filterItem = async (req, res) => {
       }
     }
 
-    logger.info(`my log: ${JSON.stringify(category)}`)
     if (category !== 'All') {
       query.category = {
         $regex: category,
         $options: 'i'
       }
-    } 
-    
+    }
     query.warrantyExpiry = queryWarrantExpiry
     logger.info(`my log: ${JSON.stringify(query)}`)
-    items = await Item.find(query);
+
+    items = await Item.find(
+      query
+    );
 
     logger.info(`Filter Items Successfully.`)
     res.json(items);
@@ -127,5 +128,42 @@ exports.sortItem = async (req, res) => {
   } catch (err) {
     logger.error(`Filter Items error: ${err}`)
     res.status(500).json({error: 'Failed to Filter items'});
+  }
+};
+
+
+// Add a new item
+exports.editItem = async (req, res) => {
+  try {
+    logger.info(`===============edit Item ================`)
+    const { id } = req.params;
+    const updates = req.body;
+    
+    // // Validate request body
+    // const allowedUpdates = ['name', 'category', 'price', 'warrantyExpiry', 'location', 'description'];
+    // const isValidOperation = Object.keys(updates).every(update => 
+    //   allowedUpdates.includes(update)
+    // );
+
+    // if (!isValidOperation) {
+    //   return res.status(400).send({ error: 'Invalid updates!' });
+    // }
+    logger.info(`===============edit Item ================${id} and ${updates}`)
+    const item = await Item.findByIdAndUpdate(
+      id,
+      updates,
+      { new: true, runValidators: true } // Return updated item and run schema validators
+    );
+    logger.info(`Edit item successfully.`)
+    if (!item) {
+      return res.status(404).send({ error: 'Item not found' });
+    }
+    res.send(item);
+  } catch (err) {
+    logger.error(`Edit item error: ${err}`)
+    res.status(400).send({
+      error: err.message,
+      details: err.errors // Mongoose validation errors
+    });
   }
 };

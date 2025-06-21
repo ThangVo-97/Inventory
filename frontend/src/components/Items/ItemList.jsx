@@ -34,10 +34,6 @@ const ItemList = ({items, loading}) => {
     }, [items])
 
     useEffect(() => {
-        if (showArchiveItem === false && selectedCategory === 'All') {
-            setFilteredItems(items);
-            return
-        }
         const fetchItems = async () => {
             try {
                 const res = await API.get(`/items/filter-item?userId=${user._id}&category=${selectedCategory}&archive=${showArchiveItem}`)

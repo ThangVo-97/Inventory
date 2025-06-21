@@ -23,7 +23,6 @@ const ItemForm = ({ open, onClose, item, refreshItems }) => {
       } else {
         await API.post('/items', formData);
       }
-      console.log("add new Item ")
       onClose();
     } catch (err) {
       console.error('Failed to save item', err);
