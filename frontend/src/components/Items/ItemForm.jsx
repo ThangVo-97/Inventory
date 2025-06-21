@@ -12,7 +12,7 @@ const ItemForm = ({ open, onClose, item, refreshItems }) => {
     price: item?.price || '',
     warrantyExpiry: item?.warrantyExpiry?.split('T')[0] || '',
     location: item?.location || '',
-    userId: user?.id
+    userId: user?._id
   });
 
   const handleSubmit = async (e) => {

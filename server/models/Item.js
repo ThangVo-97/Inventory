@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const itemSchema = new mongoose.Schema({
   name: { type: String, required: true },
   category: { type: String, required: true,
-    enum: ['Electronics', 'Furniture', 'Clothing', 'Tools', 'Other'],
+    enum: ['Electronics', 'Furniture', 'Clothing', 'Tools', 'Books', 'Other'],
     default: 'Other'
    },
   purchaseDate: { type: Date, default: Date.now },

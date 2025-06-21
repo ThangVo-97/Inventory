@@ -34,6 +34,7 @@ const ItemList = ({items, loading}) => {
     }, [items])
 
     useEffect(() => {
+        if(openForm) return
         const fetchItems = async () => {
             try {
                 const res = await API.get(`/items/filter-item?userId=${user._id}&category=${selectedCategory}&archive=${showArchiveItem}`)
@@ -46,7 +47,7 @@ const ItemList = ({items, loading}) => {
         };
         fetchItems();
 
-    }, [showArchiveItem, selectedCategory])
+    }, [showArchiveItem, selectedCategory, openForm])
 
     if (loading) return <CircularProgress />;
     return (
